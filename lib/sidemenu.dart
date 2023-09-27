@@ -36,9 +36,9 @@ class SidemenuState extends State<Sidemenu> {
           ),
           ListTile(
             leading: const Icon(Icons.book, color: Colors.blue),
-            title: Text('Daftar buku', style: TextStyle(fontSize: 16.0)),
+            title: Text('Daftar Film', style: TextStyle(fontSize: 16.0)),
             onTap: () {
-              //Navigasi ke halaman BukuPage
+              //Navigasi ke halaman FilmPage
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const FilmPage()),
